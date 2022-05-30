@@ -1,0 +1,19 @@
+h1 {
+    color: #fff;
+    background-color: rgb(12, 0, 90);
+    padding: 10px;
+}
+
+h3 {
+    color: #fff;
+    background-color: rgb(12, 0, 90);
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    align-items: stretch;
+    justify-items: center;
+}
